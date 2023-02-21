@@ -1,11 +1,11 @@
 from flask import Flask
 from flask_restx import Api
 
-from setup_db import db
 from config import Config
 from dao.director import Director
 from dao.genre import Genre
 from dao.movie import Movie
+from setup_db import db
 from views.directors import director_ns
 from views.genres import genre_ns
 from views.movies import movie_ns

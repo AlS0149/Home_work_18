@@ -1,4 +1,5 @@
 from flask_restx import Namespace, Resource
+
 from dao.director import DirectorSchema
 from implemented import director_service
 
