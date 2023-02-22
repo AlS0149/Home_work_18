@@ -1,6 +1,6 @@
 from flask_restx import Resource, Namespace
 
-from dao.genre import GenreSchema
+from dao.model.genre import GenreSchema
 from implemented import genre_service
 
 genre_ns = Namespace('genres')
